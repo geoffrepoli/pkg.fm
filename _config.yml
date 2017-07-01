@@ -1,0 +1,47 @@
+# Basic
+title:              "pkg.fm"
+description:        "just another mac admin resource"
+url:                "pkg.fm"
+author:             "geoffrepoli"
+twitter:
+  username:         "geoffrepoli"
+google_analytics:   "UA-101942283-1"
+
+# URL
+baseurl:            ""
+permalink:          pretty
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  highlighter:      rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Navigation
+nav:
+  - name:           "about"
+    href:           ""
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-seo-tag
