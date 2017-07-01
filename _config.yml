@@ -1,7 +1,7 @@
 # Site Details
 title               : "pkg.fm"
 description         : "just another mac admin resource"
-url                 : "//pkg.fm"
+url                 : "https://pkg.fm"
 baseurl             : ""
 
 # Author
