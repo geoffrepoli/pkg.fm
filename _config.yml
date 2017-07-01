@@ -1,47 +1,68 @@
-# Basic
-title:              "pkg.fm"
-description:        "just another mac admin resource"
-url:                "pkg.fm"
-author:             "geoffrepoli"
-twitter:
-  username:         "geoffrepoli"
-google_analytics:   "UA-101942283-1"
+# Site Details
+title               : "pkg.fm"
+description         : "just another mac admin resource"
+url                 : "//pkg.fm"
+baseurl             : ""
 
-# URL
-baseurl:            ""
-permalink:          pretty
+# Author
+author:
+  name              : "Geoff Repoli"
+  avatar            :
+  bio               :
+  location          : Philadelphia
+  github            : geoffrepoli
+  instagram         : geoffrepoli
+  jamfnation        :
+  linkedin          :
+  twitter           : geoffrepoli
 
-# Markdown
-markdown:           kramdown
-kramdown:
-  highlighter:      rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# Analytics
+analytics:
+  google:
+    tracking_id     : "UA-101942283-1"
+
+# Appearance
+markdown            : kramdown
+permalink           : pretty
 
 # Navigation
 nav:
-  - name:           "about"
-    href:           ""
+  - name            : "about"
+    href            : ""
 
-# Sass
-sass:
-  style:            :compressed
-
-# Scopes
+# Defaults
 defaults:
   -
     scope:
-      path:         ""
-      type:         "pages"
+      path          : ""
+      type          : pages
     values:
-      layout:       "page"
+      layout        : page
   -
     scope:
-      path:         ""
-      type:         "posts"
+      path          : ""
+      type          : posts
     values:
-      layout:       "post"
+      layout        : post
 
+# File Associations
+exclude:
+  - LICENSE
+  - README.md
+encoding            : "utf-8"
+locale              : en
+
+# Kramdown
+kramdown:
+  highlighter       : rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers  : true
+
+# Sass
+sass:
+  style             : compressed
+
+# Gems
 gems:
   - jekyll-seo-tag
