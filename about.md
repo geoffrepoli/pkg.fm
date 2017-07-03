@@ -4,7 +4,7 @@ layout: page
 ---
 
 ##### {{ site.author.name }}
-###### {{ site.author.location }}**
+###### {{ site.author.location }}
 
 [![GitHub](/assets/images/GitHub-Mark-24px.png)](https://github.com/{{ site.author.github }}){:target="_blank"}
 [![LinkedIn](/assets/images/In-Black-24px.png)](https://www.linkedin.com/in/geoff-repoli-b311a595){:target="_blank"}
