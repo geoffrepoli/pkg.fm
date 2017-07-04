@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Directory Migrations with mobile accounts"
-date: 2017-05-19
+author: "Geoff"
 ---
 Unbind the Macs from the existing domain:
 

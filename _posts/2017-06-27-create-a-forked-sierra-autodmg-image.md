@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Create a forked Sierra 10.12.5 (16F2073) AutoDMG image"
-date: 2017-06-27
+author: "Geoff"
 ---
 
 New year, new Macs... now your stuff's broken. And since many of us need to have working Netboots available to get these new Macs out -- and since we can't afford to wait until we get our hands on 10.12.6 -- we need a way to make deployable forked 10.12.5 disk image. But there's some good news: though most definitely not on purpose, Apple made the process bit easier this time.
