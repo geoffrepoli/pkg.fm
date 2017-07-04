@@ -71,6 +71,20 @@ footer,
   }
 }
 
+@media (min-width: 100px) {
+  .nav {
+    &-container {
+      text-align: left;
+    }
+
+    ul {
+      bottom: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
 footer {
   font-family: $palatino;
   padding: 2rem 0;
