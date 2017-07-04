@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="catalogue">
+<div class="catalogue" style="padding-top: 3rem">
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
       <div>
