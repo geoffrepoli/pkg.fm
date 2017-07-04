@@ -8,11 +8,12 @@ $white: #fff;
 $blue: #4a9ae1;
 $shadow-color: rgba(204, 204, 204, 0.8);
 
-$baskerville: 'Libre Baskerville', 'Times New Roman', Times, serif;
+$title-font: 'Bangers', 'Helvetica Neue', sans-serif;
+$serif-font: 'Slabo 27px', 'Times New Roman', Times, serif;
 $palatino: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$sans-font: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$monospaced-font: Menlo, Monaco, monospace;
+$monospaced-font: 'Roboto Mono', Menlo, Monaco, monospace;
 $code-color: #bf616a;
 
 @mixin box-sizing($type: border-box) {

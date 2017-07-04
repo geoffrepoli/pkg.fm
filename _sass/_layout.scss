@@ -23,12 +23,14 @@ footer,
   border-bottom: 1px solid rgba(115, 194, 251, 1);
 
   &-container {
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     position: relative;
     text-align: center;
   }
 
   &-title {
+    font-family: $title-font;
+    font-size: 2rem;
     @include transition(all .2s ease-out);
     color: $default-color;
     display: inline-block;
@@ -46,6 +48,7 @@ footer,
     margin: 1rem 0 0;
     padding: 0;
     text-align: center;
+    font-family: $sans-font;
   }
 
   li {
