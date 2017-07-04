@@ -24,7 +24,7 @@ analytics:
 
 # Appearance
 markdown            : kramdown
-permalink           : /:year-:month-:day/:title
+permalink           : pretty
 
 # File Associations
 exclude:
