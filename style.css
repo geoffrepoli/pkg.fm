@@ -212,7 +212,7 @@ tbody tr:nth-child(odd) th {
 }
   @media (min-width: 38rem) {
     .container {
-      padding: 5rem 1rem; 
+      padding: 1rem 1rem; 
     } 
 }
 
