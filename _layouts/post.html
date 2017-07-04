@@ -1,15 +1,31 @@
 ---
 layout: default
 ---
-<header class="masthead">
-  <h1 class="masthead-title--small">
-    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-  </h1>
-</header>
-<div class="content post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-date">
-    <time>{{ page.date | date_to_string }}</time>
+
+<div class="post">
+  <div class="post-info">
+    <span>Written by&nbsp;</span>{{ page.author }}
+
+    {% if page.date %}
+      <br>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
   </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-line"></div>
+
   {{ content }}
+
+</div>
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.url }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.url }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <a href="#" class="top">Top</a>
 </div>

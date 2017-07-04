@@ -3,6 +3,7 @@ title               : "pkg.fm"
 description         : "just another mac admin resource"
 url                 : "https://pkg.fm"
 baseurl             : ""
+paginate            : 5
 
 # Author
 author:
@@ -25,26 +26,6 @@ analytics:
 markdown            : kramdown
 permalink           : pretty
 
-# Navigation
-nav:
-  - name            : "about"
-    href            : ""
-
-# Defaults
-defaults:
-  -
-    scope:
-      path          : ""
-      type          : pages
-    values:
-      layout        : page
-  -
-    scope:
-      path          : ""
-      type          : posts
-    values:
-      layout        : post
-
 # File Associations
 exclude:
   - LICENSE
@@ -59,6 +40,12 @@ kramdown:
     block:
       line_numbers  : true
 
+# Sass
+sass:
+  sass_dir          : _sass
+  style             : :compressed
+
 # Gems
 gems:
   - jekyll-seo-tag
+  - jekyll-paginate

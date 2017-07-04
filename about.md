@@ -1,13 +1,15 @@
 ---
-title: About
-layout: page
+layout: post
+title: "About"
+author: "Chester"
+permalink: /about/
 ---
 
-##### {{ site.author.name }}
-###### {{ site.author.location }}**
+A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
 
-[![GitHub](/assets/images/GitHub-Mark-24px.png)](https://github.com/{{ site.author.github }}){:target="_blank"}
-[![LinkedIn](/assets/images/In-Black-24px.png)](https://www.linkedin.com/in/geoff-repoli-b311a595){:target="_blank"}
-[![Twitter](/assets/images/Twitter_Social_Icon_Blue.png)](https://twitter.com/{{ site.author.twitter }}){:target="_blank"}
-[![Instagram](/assets/images/Instagram-24px.png)](https://instagram.com/{{ site.author.instagram }}){:target="_blank"}
-[![Jamf Nation](/assets/images/jamf-24px.png)](https://www.jamf.com/jamf-nation/users/32247/{{ site.author.jamfnation }}){:target="_blank"}
+While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+
+## Contribute
+Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+
+Thanks for reading!
