@@ -13,21 +13,25 @@ footer,
 }
 
 .nav {
-  -webkit-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
   position: fixed;
   height: 3.5rem;
   left: 0;
   top: 0;
   width: 100%;
   background: #fff;
-  border-bottom: 1px solid $blue;
   transform: translateY(0);
   transform: translate3d(0,0,0);
   transition: .25s transform;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  @media screen and (max-device-width: 500px) {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
 
   &-container {
     position: absolute;
@@ -40,13 +44,13 @@ footer,
     font-family: $title-font;
     font-size: 2rem;
     @include transition(all .2s ease-out);
-    color: $default-color;
+    color: $blue;
     display: inline-block;
     margin: 0;
 
     &:hover,
     &:focus {
-      color: $blue;
+      color: $default-color;
     }
   }
 
