@@ -8,12 +8,9 @@ body {
   color: $default-color;
   margin: 0;
   padding: 0;
-  height:100%;
-  width:100%;
 }
 
 html {
-  overflow:hidden;
   font-family: $serif-font;
   font-size: 14px;
   @media (min-width: 600px) {
@@ -23,8 +20,6 @@ html {
 
 body {
   -webkit-text-size-adjust: inherit;
-  overflow:auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 h1,
