@@ -4,6 +4,7 @@ title: Home
 ---
 
 <div class="catalogue">
+  {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
@@ -16,4 +17,16 @@ title: Home
 
       </div>
     </a>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.url }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.url }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <span>{{ paginator.page }}</span>
 </div>
