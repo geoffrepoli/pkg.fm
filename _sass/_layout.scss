@@ -26,20 +26,16 @@ main,
     color: $blue;
     display: inline-block;
     margin: 0;
-    -webkit-animation: title-fadein 1.5s;
-    animation: title-fadein 1.5s;
     @media (min-width: 414px) {
       text-shadow: $long-shadow;
       color: #fbfbfb;
     }
     @media (min-width: 1440px) {
-      font-size: 3rem;
+      font-size: 2.75rem;
     }
 
     &:hover,
     &:focus {
-      text-shadow: $long-shadow-hover-2;
-
       @media (max-width: 413px) {
       color: $default-color;
       text-shadow: none;
@@ -125,25 +121,5 @@ footer {
   span {
     color: $default-color;
     font-size: .8rem;
-  }
-}
-
-@-webkit-keyframes title-fadein {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes title-fadein {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
   }
 }
