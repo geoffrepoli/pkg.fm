@@ -1,19 +1,50 @@
-<head>
+<head itemscope itemtype="http://schema.org/WebSite">
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta http-equiv="Cache-Control" content="max-age=86400, public" />
   <meta http-equiv="Content-Encoding" content="gzip" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+{% capture page_title %}
+{% if page.title == "Home" %}
+  {{ site.title }}
+{% else %}
+  {{ site.title }} | {{ page.title }}
+{% endcapture %}
 
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora|Poppins:700|Inconsolata|Roboto">
+{% capture page_description %}
+{% if page.title == "Home" %}
+  {{ site.description }}
+{% else %}
+  {{ page.description }}
+{% endif %}
+{% assign page_description = page_description | strip_html | strip_newlines | truncate 160 %}
+
+{% capture page_url %}
+{% if page.title == "Home" %}
+  {{ site.url }}
+{% else %}
+  {{ post.url | prepend: site.url }}
+{% endif %}
+
+{% if page.title == "Home" %}
+  {% assign page_type = "website" %}
+{% else if page.title == "About" %}
+  {% assign page_type = "website" %}
+{% else %}
+  {% assign page_type = "article" %}
+{% endif %}
+
+
+  <title itemprop='name'>{{ page_title }}</title>
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="{{ page_type }}" />
+  <meta property="og:url" content="{{ page_url }}" />
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta property="og:site-name" content="{{ page_title }}" />
+
+  <link rel="canonical" href="{{ site.url }}" itemprop="url" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora|Poppins:700|Inconsolata|Roboto" />
 </head>
