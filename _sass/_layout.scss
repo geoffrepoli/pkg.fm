@@ -21,15 +21,29 @@ main,
 
   &-title {
     font-family: $title-font;
-    font-size: 2rem;
+    font-size: 2.25rem;
     @include transition(all .2s ease-out);
     color: $blue;
     display: inline-block;
     margin: 0;
+    -webkit-animation: title-fadein 1.5s;
+    animation: title-fadein 1.5s;
+    @media (min-width: 414px) {
+      text-shadow: $long-shadow;
+      color: #fbfbfb;
+    }
+    @media (min-width: 1440px) {
+      font-size: 3rem;
+    }
 
     &:hover,
     &:focus {
+      text-shadow: $long-shadow-hover-2;
+
+      @media (max-width: 413px) {
       color: $default-color;
+      text-shadow: none;
+      }
     }
   }
 
@@ -87,7 +101,7 @@ main,
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.15);
-  @media screen and (max-device-width: 500px) {
+  @media screen and (max-device-width: 600px) {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -111,5 +125,91 @@ footer {
   span {
     color: $default-color;
     font-size: .8rem;
+  }
+}
+
+@-webkit-keyframes title-fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes title-fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(83px, 9999px, 23px, 0);
+  }
+  5% {
+    clip: rect(20px, 9999px, 74px, 0);
+  }
+  10% {
+    clip: rect(70px, 9999px, 77px, 0);
+  }
+  15% {
+    clip: rect(83px, 9999px, 85px, 0);
+  }
+  20% {
+    clip: rect(50px, 9999px, 18px, 0);
+  }
+  25% {
+    clip: rect(36px, 9999px, 59px, 0);
+  }
+  30% {
+    clip: rect(38px, 9999px, 14px, 0);
+  }
+  35% {
+    clip: rect(92px, 9999px, 41px, 0);
+  }
+  40% {
+    clip: rect(20px, 9999px, 22px, 0);
+  }
+  45% {
+    clip: rect(44px, 9999px, 7px, 0);
+  }
+  50% {
+    clip: rect(88px, 9999px, 50px, 0);
+  }
+  55% {
+    clip: rect(78px, 9999px, 89px, 0);
+  }
+  60% {
+    clip: rect(42px, 9999px, 73px, 0);
+  }
+  65% {
+    clip: rect(91px, 9999px, 17px, 0);
+  }
+  70% {
+    clip: rect(59px, 9999px, 64px, 0);
+  }
+  75% {
+    clip: rect(55px, 9999px, 61px, 0);
+  }
+  80% {
+    clip: rect(85px, 9999px, 42px, 0);
+  }
+  85% {
+    clip: rect(100px, 9999px, 24px, 0);
+  }
+  90% {
+    clip: rect(56px, 9999px, 45px, 0);
+  }
+  95% {
+    clip: rect(86px, 9999px, 62px, 0);
+  }
+  100% {
+    clip: rect(86px, 9999px, 47px, 0);
   }
 }
