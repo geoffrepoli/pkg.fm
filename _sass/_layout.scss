@@ -13,9 +13,9 @@ footer,
 }
 
 .nav {
-  -webkit-box-shadow: 0px 3px 9px rgba(170,170,170,0.4);
-  -moz-box-shadow: 0px 3px 9px rgba(170,170,170,0.4);
-  box-shadow: 0px 3px 9px rgba(170,170,170,0.4);
+  -webkit-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
   position: fixed;
   height: 3.5rem;
   left: 0;
@@ -34,9 +34,6 @@ footer,
     height: 100%;
     top: 5%;
     padding-left: 1.5rem;
-    @media screen and (max-device-width: 500px) {
-      top: 10%;
-    }
   }
 
   &-title {
@@ -90,8 +87,8 @@ footer,
 }
 
 .heads-up {
-  transform: translateY(-3.5rem);
-  transform: translate3d(0,-3.5rem,0);
+  transform: translateY(-4rem);
+  transform: translate3d(0,-4rem,0);
 }
 
 footer {
