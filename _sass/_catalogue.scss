@@ -1,5 +1,5 @@
 .catalogue {
-  padding-top: 3rem;
+  padding-top: 1.75rem;
 
   &-item {
     border-bottom: 1px solid $grey-2;
@@ -18,9 +18,10 @@
   }
 
   &-time {
-    color: $default-tint;
-    font-family: $palatino;
-    letter-spacing: .5px;
+    color: rgba(0, 0, 0, 0.25);
+    font-family: $sans-font;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
   }
 
   &-title {

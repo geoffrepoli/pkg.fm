@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<div class="catalogue" style="padding-top: 3rem">
+<div class="catalogue">
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
       <div>
@@ -18,15 +18,4 @@ title: Home
       </div>
     </a>
   {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.url }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.url }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <span>{{ paginator.page }}</span>
 </div>
