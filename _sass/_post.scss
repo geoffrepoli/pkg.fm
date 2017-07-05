@@ -18,6 +18,9 @@
     font-size: 2.75rem;
     margin: 1rem 0;
     text-align: center;
+    @media screen and (max-device-width: 500px) {
+      font-size: 1.7rem;
+    }
   }
 
   &-line {
@@ -25,6 +28,10 @@
     display: block;
     margin: 0 auto 3rem;
     width: 4rem;
+    @media screen and (max-device-width: 500px) {
+      border-top: .1rem solid $default-shade;
+      margin: 0 auto 2rem;
+    }
   }
 
   p {
