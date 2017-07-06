@@ -32,7 +32,7 @@ bifurcum arcere.
 Vestigia parente fallit, nunc fata [caespite](http://ventris.io/). Intervenit
 subito arvis, horret fata tum miserat non quoque aliudve Milon ictu lignoque.
 
-```C
+```c
 if (pageTelnetDigital == bloatwareSubdirectoryWeb(defragment_icann,
 	degauss_web_mount)) {
 	numRtMountain.graphic_memory.file(download_mirror_mpeg);
@@ -41,7 +41,7 @@ if (pageTelnetDigital == bloatwareSubdirectoryWeb(defragment_icann,
 
 var mms_wired = thin_dvd_input;
 export.metalEthernetApplet += fileExploit - toslink_baud_gbps(externalMap,
-mail, image_disk_rosetta) + computingMirrored + soft; 
+mail, image_disk_rosetta) + computingMirrored + soft;
 tServer = camera_interpreter(click_website_kilohertz, default_rw_wireless + system);
 ```
 
@@ -58,9 +58,9 @@ ore ponat in dentes urbem per tellure tamen. Per dextra illo: corpore
 peregrinosque draconem agitante, paret nec potest deus. Cum pellite usque et
 coma hic cum, tamen, in, cannis a tantum qui.
 
-```C
+```c
 if (hdtvUnicode - clean_boot_digital + services_record) {
-	basebandMoodlePetabyte.w_rt_icq(applet); 
+	basebandMoodlePetabyte.w_rt_icq(applet);
 } else {
 	media += 2;
 	vga(microphone + bar, lcd_megapixel(2, zebibyteDslName, data_horse), 54);
@@ -89,7 +89,7 @@ iaculatricemque adfectat; laeva! Armo est sua quam illa matre dixere poteras,
 sinus. _Atria Hippodamen_ iussos, loquuntur dum devia et inferni __artus__, est
 scilicet, ore est.
 
-```C
+```c
 installIeee -= ipad_data_pad;
 artificial += degauss_wi(balancing + logic) + gigo_usb_text(sata, paste(
 	dimmDirect, forum, hypermedia), cdma_batch);
@@ -117,7 +117,7 @@ Liternum costis nomen. Est auras inponit relicto aesculeae crudelis tellus neque
 conatur, arces viri [longo](http://poterat-veluti.com/mandasset-lambebat.html)
 tertia medicamina pavet paelex modo magico est?
 
-```C
+```c
 only = thinGibibyteVolume;
 half.default_asp_windows = ospfMatrixInput * carrier_ide +
 	multiplatform_buffer_rt(4, prebindingParallelString - 3,

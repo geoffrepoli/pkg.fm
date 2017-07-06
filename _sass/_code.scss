@@ -1,6 +1,7 @@
 pre,
 code {
   font-family: $monospaced-font;
+  overflow-x: auto;
 }
 
 code {
@@ -32,7 +33,6 @@ pre code {
 
   pre {
     margin-bottom: 0;
-    overflow-x: auto;
   }
 
   .lineno {
