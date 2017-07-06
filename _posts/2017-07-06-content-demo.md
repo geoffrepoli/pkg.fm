@@ -2,10 +2,6 @@
 layout: post
 title: "Spernimur rupit sorore tauro ingentia attritas his"
 ---
-# Spernimur rupit sorore tauro ingentia attritas his
-
-## Et mihi est meo scrobibus detruncatque humano
-
 Lorem markdownum collo. Ubi quod, euntem, **tuis pulchra**, populisque enim
 procul vellera, tibi angues. Sua lucis variusque Romam; vult tactis degeneras
 cecidisse pestis dicenda est structoque terras. Laniem lucida tibi iussit dubito
@@ -35,6 +31,7 @@ bifurcum arcere.
 Vestigia parente fallit, nunc fata [caespite](http://ventris.io/). Intervenit
 subito arvis, horret fata tum miserat non quoque aliudve Milon ictu lignoque.
 
+```bash
     if (pageTelnetDigital == bloatwareSubdirectoryWeb(defragment_icann,
             degauss_web_mount)) {
         numRtMountain.graphic_memory.file(download_mirror_mpeg);
@@ -45,6 +42,7 @@ subito arvis, horret fata tum miserat non quoque aliudve Milon ictu lignoque.
             mail, image_disk_rosetta) + computingMirrored + soft;
     tServer = camera_interpreter(click_website_kilohertz, default_rw_wireless +
             system);
+```
 
 ## Capillos Pallada
 
@@ -59,6 +57,7 @@ ore ponat in dentes urbem per tellure tamen. Per dextra illo: corpore
 peregrinosque draconem agitante, paret nec potest deus. Cum pellite usque et
 coma hic cum, tamen, in, cannis a tantum qui.
 
+```bash
     if (hdtvUnicode - clean_boot_digital + services_record) {
         basebandMoodlePetabyte.w_rt_icq(applet);
     } else {
@@ -80,6 +79,7 @@ coma hic cum, tamen, in, cannis a tantum qui.
             -2), multimedia(twain_technology.uri_directory(
             boot_memory_virtualization)));
     kernelFriendly.css_web *= page_real;
+```
 
 ## Olim inquit
 
@@ -88,6 +88,7 @@ iaculatricemque adfectat; laeva! Armo est sua quam illa matre dixere poteras,
 sinus. _Atria Hippodamen_ iussos, loquuntur dum devia et inferni __artus__, est
 scilicet, ore est.
 
+```bash
     installIeee -= ipad_data_pad;
     artificial += degauss_wi(balancing + logic) + gigo_usb_text(sata, paste(
             dimmDirect, forum, hypermedia), cdma_batch);
@@ -96,6 +97,7 @@ scilicet, ore est.
     if (domain_transfer_iphone) {
         wrap_soft.printerSramFriendly = pim_menu;
     }
+```
 
 Marmore viridi remansit, vocat, hanc viderit innectite deserti. Qui aere habet
 visa quoque fraudem supplex, antistita litora mentae. Ora quoque forte ferrum
@@ -114,6 +116,7 @@ Liternum costis nomen. Est auras inponit relicto aesculeae crudelis tellus neque
 conatur, arces viri [longo](http://poterat-veluti.com/mandasset-lambebat.html)
 tertia medicamina pavet paelex modo magico est?
 
+```bash
     only = thinGibibyteVolume;
     half.default_asp_windows = ospfMatrixInput * carrier_ide +
             multiplatform_buffer_rt(4, prebindingParallelString - 3,
@@ -131,6 +134,7 @@ tertia medicamina pavet paelex modo magico est?
             clickNetmask, ripping_sprite(reimage, program_user(
             irqDegaussMaximize, browser, cpm_e_thermistor), -2),
             rpcScannerLeopard);
+```
 
 Virentibus fundit iunonis in super fistula quoque, tibi ramis! Deriguit
 fraudesque haec, et, rettulit! Has in erat fore extremum, sudore receptus
