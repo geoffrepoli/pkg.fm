@@ -47,7 +47,6 @@
   &-line {
     border-top: .1rem solid $default-shade;
     display: block;
-    /*margin: 0 auto 2rem;*/
     margin-bottom: 1rem;
     width: 6rem;
     @media (min-width: 500px) {
@@ -62,27 +61,36 @@
   }
 
   a {
-    color: $default-color;
-    opacity: .6;
-    display: inline-block;
+    color: $red;
+    @media (min-width: 500px) {
+      display: inline-block;
+      opacity: .6;
+      color: $default-color;
+    }
 
     &:hover,
     &:focus, {
-      opacity: 1;
+      @media (min-width: 500px) {
+        opacity: 1;
+      }
     }
 
     &:after, {
-    display: block;
-    content: '';
-    height: 2px;
-    width: 0%;
-    background-color: $red;
-    transition: width 0.5s ease-in-out;
-  }
+      @media (min-width: 500px) {
+        display: block;
+        content: '';
+        height: 2px;
+        width: 0%;
+        background-color: $red;
+        transition: width 0.5s ease-in-out;
+      }
+    }
 
     &:hover:after,
     &:focus:after {
-      width: 100%;
+      @media (min-width: 500px) {
+        width: 100%;
+      }
     }
   }
 }
