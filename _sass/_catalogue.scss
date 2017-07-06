@@ -1,5 +1,24 @@
 .catalogue {
-  padding-top: 3rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 4rem 0rem 1rem 0rem;
+  @media (min-width: 400px) {
+    padding: 5rem 0rem 1rem 0rem;
+  }
+  @media (min-width: 600px) {
+    padding: 5rem 0rem 1rem 0rem;
+    width: 80%;
+  }
+  @media (min-width: 1024px) {
+    width: 70%;
+  }
+  @media (min-width: 1366px) {
+    width: 60%;
+  }
+  @media (min-width: 1800px) {
+    padding: 6rem 0rem 1rem 0rem;
+    width: 40%;
+  }
 
   &-item {
     border-bottom: 1px solid $grey-2;
