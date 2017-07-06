@@ -8,13 +8,13 @@ New year, new Macs... now your stuff's broken. And since many of us need to have
 
 ### What you'll need
 
-1. AutoDMG (if, for some strange reason, you don't have it already) [<a href="https://github.com/MagerValp/AutoDMG/releases" target="_blank">link</a>]
-2. A macOS Sierra Installer [<a href="macappstore://itunes.apple.com/us/app/macos-sierra/id1127487414?mt=12" target="_blank">link</a>]
-3. macOS Sierra 10.12.5 Update for 2017 iMacs [<a href="https://support.apple.com/kb/DL1921" target="_blank">link</a>]
+1. <a href="https://github.com/MagerValp/AutoDMG/releases" target="_blank">AutoDMG</a> (if, for some strange reason, you don't have it already)
+2. <a href="macappstore://itunes.apple.com/us/app/macos-sierra/id1127487414?mt=12" target="_blank">macOS Sierra Installer</a>
+3. <a href="https://support.apple.com/kb/DL1921" target="_blank">macOS Sierra 10.12.5 Update for 2017 iMacs</a>
 
 ### What you'll need to do
 
-Once everything's been downloaded, launch AutoDMG, then drag and drop the macOS Sierra installer you grabbed from the Mac App Store into the app. It'll pre-populate with some updates (e.g., iTunes and Apple Remote Desktop) and, depending on your use case, either download and check to apply the updates or skip it. 
+Once everything's been downloaded, launch AutoDMG, then drag and drop the macOS Sierra installer you grabbed from the Mac App Store into the app. It'll pre-populate with some updates (e.g., iTunes and Apple Remote Desktop) and, depending on your use case, either download and check to apply the updates or skip it.
 
 Now, before building, you'll want to open the *macOS Sierra 10.12.5 Update for 2017 iMacs* dmg you downloaded, and drag and drop the enclosed pkg into the *Additional software* section in AutoDMG.
 

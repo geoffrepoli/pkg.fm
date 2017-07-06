@@ -6,6 +6,7 @@ $grey-2: #e5e5e5;
 $grey-3: #f9f9f9;
 $white: #fff;
 $blue: #73c2fb;
+$red: #e74c3c;
 $shadow-color: rgba(204, 204, 204, 0.8);
 $long-shadow: 0 0px 0 #c9c1c1, 0 1px 0 #c2b9b9, 0 2px 0 #bbb1b1, 0 3px 0 #b4a8a8, 0 4px 0 #ada0a0, 0 5px 0 #a59898, 0 6px 0 #9e9090, 0 7px 0 #978888, 0 8px 0 #908080, 0 9px 5px rgba(0, 0, 0, 0.3);
 
@@ -13,7 +14,7 @@ $title-font: Poppins, 'Helvetica Neue', sans-serif;
 $serif-font: 'Playfair Display', 'Times New Roman', Times, serif;
 $sans-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $monospaced-font: 'Roboto Mono', Menlo, Monaco, monospace;
-$code-color: #73c2fb;
+$code-color: #e74c3c;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

@@ -61,7 +61,28 @@
     text-align: justify;
   }
 
-  a:hover {
-    text-decoration: underline;
+  a {
+    color: $default-color;
+    opacity: .6;
+    display: inline-block;
+
+    &:hover,
+    &:focus, {
+      opacity: 1;
+    }
+
+    &:after, {
+    display: block;
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: $red;
+    transition: width 0.5s ease-in-out;
+  }
+
+    &:hover:after,
+    &:focus:after {
+      width: 100%;
+    }
   }
 }
