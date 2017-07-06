@@ -1,8 +1,23 @@
-main,
+main, {
+  width: 100%;
+  margin: 0;
+}
+
 .nav-container {
   margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
+  width: 90%;
+  @media (min-width: 600x) {
+    width: 80%;
+  }
+  @media (min-width: 1024px) {
+    width: 70%;
+  }
+  @media (min-width: 1366px) {
+    width: 60%;
+  }
+  @media (min-width: 1800px) {
+    width: 40%;
+  }
 }
 
 .nav {
@@ -21,27 +36,26 @@ main,
 
   &-title {
     font-family: $title-font;
-    font-size: 2.25rem;
+    font-size: 2rem;
     @include transition(all .2s ease-out);
-    color: $blue;
+    text-shadow: $long-shadow;
+    color: $grey-3;
     display: inline-block;
     margin: 0;
     @media (min-width: 414px) {
-      text-shadow: $long-shadow;
-      color: #fbfbfb;
       font-size: 2.5rem;
     }
     @media (min-width: 1440px) {
       font-size: 2.75rem;
     }
 
-    &:hover,
+    /*&:hover,
     &:focus {
       @media (max-width: 413px) {
       color: $default-color;
       text-shadow: none;
       }
-    }
+    }*/
   }
 
   ul {
@@ -115,12 +129,7 @@ main,
 }
 
 footer {
-  font-family: $palatino;
+  font-family: $sans-font;
   padding: 2rem 0;
   text-align: center;
-
-  span {
-    color: $default-color;
-    font-size: .8rem;
-  }
 }

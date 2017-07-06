@@ -1,9 +1,28 @@
 .post {
-  padding: 4.5rem 0rem 1rem 0rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 4rem 0rem 1rem 0rem;
+  @media (min-width: 400px) {
+    padding: 5rem 0rem 1rem 0rem;
+  }
+  @media (min-width: 600px) {
+    padding: 5rem 0rem 1rem 0rem;
+    width: 80%;
+  }
+  @media (min-width: 1024px) {
+    width: 70%;
+  }
+  @media (min-width: 1366px) {
+    width: 60%;
+  }
+  @media (min-width: 1800px) {
+    padding: 6rem 0rem 1rem 0rem;
+    width: 40%;
+  }
 
   &-info {
     color: $default-tint;
-    font-family: $palatino;
+    font-family: $sans-font;
     letter-spacing: .5px;
     text-align: center;
 
@@ -13,24 +32,27 @@
   }
 
   &-title {
+    width: 100%;
     color: $default-shade;
-    font-family: $sans-font;
-    font-size: 2.75rem;
+    font-family: $serif-font;
+    font-weight:700;
+    font-size: 2rem;
     margin: 1rem 0;
-    text-align: center;
-    @media screen and (max-device-width: 500px) {
-      font-size: 2rem;
+    text-align: left;
+    @media (min-width: 500px) {
+      font-size: 3rem;
     }
   }
 
   &-line {
-    border-top: .4rem solid $default-shade;
+    border-top: .1rem solid $default-shade;
     display: block;
-    margin: 0 auto 3rem;
-    width: 4rem;
-    @media screen and (max-device-width: 500px) {
-      border-top: .1rem solid $default-shade;
-      margin: 0 auto 2rem;
+    /*margin: 0 auto 2rem;*/
+    margin-bottom: 1rem;
+    width: 6rem;
+    @media (min-width: 500px) {
+      border-top: .2rem solid $default-shade;
+      margin-bottom: 2rem;
     }
   }
 
