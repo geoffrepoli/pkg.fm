@@ -61,11 +61,12 @@
   }
 
   a {
-    color: $red;
+    color: $default-color;
+    border-bottom: 1px solid $red;
     @media (min-width: 500px) {
       display: inline-block;
       opacity: .6;
-      color: $default-color;
+      border-bottom: none;
     }
 
     &:hover,
