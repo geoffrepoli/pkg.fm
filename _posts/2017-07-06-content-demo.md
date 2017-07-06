@@ -32,7 +32,7 @@ bifurcum arcere.
 Vestigia parente fallit, nunc fata [caespite](http://ventris.io/). Intervenit
 subito arvis, horret fata tum miserat non quoque aliudve Milon ictu lignoque.
 
-```shell
+```C
 if (pageTelnetDigital == bloatwareSubdirectoryWeb(defragment_icann,
 	degauss_web_mount)) {
 	numRtMountain.graphic_memory.file(download_mirror_mpeg);
@@ -58,7 +58,7 @@ ore ponat in dentes urbem per tellure tamen. Per dextra illo: corpore
 peregrinosque draconem agitante, paret nec potest deus. Cum pellite usque et
 coma hic cum, tamen, in, cannis a tantum qui.
 
-```shell
+```C
 if (hdtvUnicode - clean_boot_digital + services_record) {
 	basebandMoodlePetabyte.w_rt_icq(applet); 
 } else {
@@ -89,7 +89,7 @@ iaculatricemque adfectat; laeva! Armo est sua quam illa matre dixere poteras,
 sinus. _Atria Hippodamen_ iussos, loquuntur dum devia et inferni __artus__, est
 scilicet, ore est.
 
-```shell
+```C
 installIeee -= ipad_data_pad;
 artificial += degauss_wi(balancing + logic) + gigo_usb_text(sata, paste(
 	dimmDirect, forum, hypermedia), cdma_batch);
@@ -117,7 +117,7 @@ Liternum costis nomen. Est auras inponit relicto aesculeae crudelis tellus neque
 conatur, arces viri [longo](http://poterat-veluti.com/mandasset-lambebat.html)
 tertia medicamina pavet paelex modo magico est?
 
-```shell
+```C
 only = thinGibibyteVolume;
 half.default_asp_windows = ospfMatrixInput * carrier_ide +
 	multiplatform_buffer_rt(4, prebindingParallelString - 3,
