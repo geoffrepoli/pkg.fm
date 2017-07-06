@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Spernimur rupit sorore tauro ingentia attritas his"
 ---
 # Spernimur rupit sorore tauro ingentia attritas his
