@@ -89,7 +89,7 @@ main, {
 
 .heads-up {
   @media (max-width: 600px) {
-    ransform: translateY(-5rem);
+    transform: translateY(-5rem);
     transform: translate3d(0,-5rem,0);
   }
 }
