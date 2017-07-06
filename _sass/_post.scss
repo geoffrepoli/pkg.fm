@@ -95,3 +95,12 @@
     }
   }
 }
+
+.scroll-line {
+  z-index: 999;
+  position: fixed;
+  height: 2px;
+  top: 0;
+  background: $red;
+  width: 0%;
+}

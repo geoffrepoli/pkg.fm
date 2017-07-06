@@ -6,36 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 
 {% capture page_title %}
-  {% if page.title == "Home" %}
-    {{ site.title }}
-  {% else %}
-    {{ site.title }} | {{ page.title }}
-  {% endif %}
+{% if page.title == "Home" %}
+{{ site.title }}
+{% else %}
+{{ site.title }} | {{ page.title }}
+{% endif %}
 {% endcapture %}
+{% assign page_title = page_title | strip_newlines %}
 
 {% capture page_description %}
-  {% if page.title == "Home" %}
-    {{ site.description }}
-  {% else %}
-    {{ page.description }}
-  {% endif %}
+{% if page.title == "Home" %}
+{{ site.description }}
+{% else %}
+{{ page.description }}
+{% endif %}
 {% endcapture %}
 {% assign page_description = page_description | strip_html | strip_newlines | truncate 160 %}
 
 {% capture page_url %}
-  {% if page.title == "Home" %}
-    {{ site.url }}
-  {% else %}
-    {{ post.url | prepend: site.url }}
-  {% endif %}
+{% if page.title == "Home" %}
+{{ site.url }}
+{% else %}
+ {{ post.url | prepend: site.url }}
+{% endif %}
 {% endcapture %}
+{% assign page_url = page_url | strip_newlines %}
 
 {% if page.title == "Home" %}
-  {% assign page_type = "website" %}
+{% assign page_type = "website" %}
 {% else if page.title == "About" %}
-  {% assign page_type = "website" %}
+{% assign page_type = "website" %}
 {% else %}
-  {% assign page_type = "article" %}
+{% assign page_type = "article" %}
 {% endif %}
 
 
