@@ -28,7 +28,6 @@ permalink           : pretty
 
 # File Associations
 exclude:
-  - LICENSE
   - README.md
 encoding            : "utf-8"
 locale              : en
