@@ -61,7 +61,7 @@
   <meta property="og:title" content="{{ page_title }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image" content="http://pkg.fm/assets/icons/pkg_fm_og.png" />
+  <meta property="og:image" content="{{ site.url }}/assets/icons/pkg_fm_og.png" />
   <meta property="og:image:secure_url" content="{{ site.url }}/assets/icons/pkg_fm_og.png" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="780" />
@@ -70,9 +70,11 @@
   <!-- TWITTER CARD -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ page_title }}" />
+  <meta property="twitter:description" content="{{ site.description }}" />
   <meta name="twitter:url" content="{{ page_url }}" />
   <meta name="twitter:image" content="{{ site.url }}/assets/icons/pkg_fm_og.png" />
 
+  <!-- STYLESHEETS -->
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles.css" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:700|Roboto+Mono" />
 
