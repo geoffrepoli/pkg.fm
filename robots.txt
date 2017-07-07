@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Disallowed Posts
+Disallow: /2017/07/06/content-demo
