@@ -1,13 +1,13 @@
 # Site Details
-title               : "PKG.fm"
-description         : "Just another Mac admin blog"
+title               : PKG.fm
+description         : Just another Mac admin blog
 url                 : "https://pkg.fm"
 logo                : "https://pkg.fm/assets/icons/pkg_fm_og.png"
 baseurl             : ""
 
 # Author
 author:
-  name              : "Geoff Repoli"
+  name              : Geoff Repoli
   avatar            :
   bio               :
   location          : Philadelphia
@@ -20,7 +20,7 @@ author:
 # Analytics
 analytics_id:
   google:
-    tracking_id     : "UA-101942283-1"
+    tracking_id     : UA-101942283-1
 
 # Appearance
 markdown            : kramdown
@@ -28,14 +28,17 @@ permalink           : pretty
 paginate            : 5
 
 # Localization
-encoding            : "UTF-8"
-locale              : "en_US"
+encoding            : UTF-8
+locale              : en_US
 lang                : en
 
 # Exclusions
 exclude:
   - README.md
   - .DS_Store
+  - CNAME
+  - robots.txt
+  - LICENSE
 
 # Kramdown
 kramdown:
