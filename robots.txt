@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Sitemap: https://pkg.fm/sitemap.xml
 
 # Disallowed Posts
 Disallow: /2017/07/06/content-demo
