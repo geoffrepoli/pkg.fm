@@ -1,12 +1,12 @@
-<head itemscope itemtype="http://schema.org/WebSite">
-  <meta charset="UTF-8" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta http-equiv="Cache-Control" content="max-age=86400, public" />
   <meta http-equiv="Content-Encoding" content="gzip" />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 
 {% capture page_title %}
-{% if page.title == "Home" %}
+{% if page.title == 'Home' %}
 {{ site.title }}
 {% else %}
 {{ site.title }} | {{ page.title }}
@@ -15,7 +15,7 @@
 {% assign page_title = page_title | strip_newlines %}
 
 {% capture page_description %}
-{% if page.title == "Home" %}
+{% if page.title == 'Home' %}
 {{ site.description }}
 {% else %}
 {{ page.description }}
@@ -24,46 +24,66 @@
 {% assign page_description = page_description | strip_html | strip_newlines | truncate 160 %}
 
 {% capture page_url %}
-{% if page.title == "Home" %}
+{% if page.title == 'Home' %}
 {{ site.url }}
 {% else %}
- {{ post.url | prepend: site.url }}
+{{ post.url | prepend: site.url }}
 {% endif %}
 {% endcapture %}
 {% assign page_url = page_url | strip_newlines %}
 
-{% if page.title == "Home" %}
-{% assign page_type = "website" %}
-{% else if page.title == "About" %}
-{% assign page_type = "website" %}
+{% if page.title == 'Home' %}
+{% assign page_type = 'website' %}
 {% else %}
-{% assign page_type = "article" %}
+{% assign page_type = 'article' %}
 {% endif %}
 
 
-  <title itemprop='name'>{{ page_title }}</title>
+  <title>{{ page_title }}</title>
 
   <!-- FAVICONS -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-  <link rel="manifest" href="/assets/icons/manifest.json">
-  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#e74c3c">
-  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
-  <meta name="apple-mobile-web-app-title" content="PKG.fm">
-  <meta name="application-name" content="PKG.fm">
-  <meta name="msapplication-TileColor" content="#e74c3c">
-  <meta name="msapplication-TileImage" content="/assets/icons/mstile-144x144.png">
-  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
-  <meta name="theme-color" content="#e74c3c">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/icons/manifest.json" />
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#e74c3c" />
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
+  <meta name="apple-mobile-web-app-title" content="PKG.fm" />
+  <meta name="application-name" content="PKG.fm" />
+  <meta name="msapplication-TileColor" content="#e74c3c" />
+  <meta name="msapplication-TileImage" content="/assets/icons/mstile-144x144.png" />
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml" />
+  <meta name="theme-color" content="#e74c3c" />
 
   <!-- OPEN GRAPH -->
-  <meta property="og:type" content="{{ page_type }}">
-  <meta property="og:url" content="{{ page_url }}">
-  <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:site-name" content="{{ page_title }}">
+  <meta property="og:type" content="{{ page_type }}" />
+  <meta property="og:url" content="{{ page_url }}" />
+  <meta property="og:title" content="{{ page_title }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image" content="http://pkg.fm/assets/icons/pkg_fm_og.png" />
+  <meta property="og:image:secure_url" content="{{ site.url }}/assets/icons/pkg_fm_og.png" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="780" />
+  <meta property="og:image:height" content="408" />
 
-  <link rel="canonical" href="{{ site.url }}" itemprop="url">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:700|Roboto+Mono">
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ page_title }}" />
+  <meta name="twitter:url" content="{{ page_url }}" />
+  <meta name="twitter:image" content="{{ site.url }}/assets/icons/pkg_fm_og.png" />
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:700|Roboto+Mono" />
+
+  <!-- GOOGLE STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "{{ page_title }}",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/icons//assets/icons/apple-touch-icon.png"
+  }
+  </script>
 </head>
