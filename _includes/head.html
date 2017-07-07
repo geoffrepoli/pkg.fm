@@ -1,4 +1,4 @@
-<head>
+<head prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta http-equiv="Cache-Control" content="max-age=86400, public" />
   <meta http-equiv="Content-Encoding" content="gzip" />
@@ -32,12 +32,6 @@
 {% endcapture %}
 {% assign page_url = page_url | strip_newlines %}
 
-{% if page.title == 'Home' %}
-{% assign page_type = 'website' %}
-{% else %}
-{% assign page_type = 'article' %}
-{% endif %}
-
 
   <title>{{ page_title }}</title>
 
@@ -56,7 +50,7 @@
   <meta name="theme-color" content="#e74c3c" />
 
   <!-- OPEN GRAPH -->
-  <meta property="og:type" content="{{ page_type }}" />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page_url }}" />
   <meta property="og:title" content="{{ page_title }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
