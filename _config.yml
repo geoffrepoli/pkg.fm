@@ -1,7 +1,8 @@
 # Site Details
 title               : "PKG.fm"
-description         : "just another mac admin resource"
+description         : "Just another Mac admin blog"
 url                 : "https://pkg.fm"
+logo                : "https://pkg.fm/assets/icons/pkg_fm_og.png"
 baseurl             : ""
 paginate            : 5
 
@@ -29,8 +30,8 @@ permalink           : pretty
 # File Associations
 exclude:
   - README.md
-encoding            : "utf-8"
-locale              : en
+encoding            : "UTF-8"
+locale              : "en_US"
 
 # Kramdown
 kramdown:
