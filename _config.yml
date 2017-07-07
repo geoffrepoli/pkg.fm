@@ -4,7 +4,6 @@ description         : "Just another Mac admin blog"
 url                 : "https://pkg.fm"
 logo                : "https://pkg.fm/assets/icons/pkg_fm_og.png"
 baseurl             : ""
-paginate            : 5
 
 # Author
 author:
@@ -19,19 +18,24 @@ author:
   twitter           : geoffrepoli
 
 # Analytics
-analytics:
+analytics_id:
   google:
     tracking_id     : "UA-101942283-1"
 
 # Appearance
 markdown            : kramdown
 permalink           : pretty
+paginate            : 5
 
-# File Associations
-exclude:
-  - README.md
+# Localization
 encoding            : "UTF-8"
 locale              : "en_US"
+lang                : en
+
+# Exclusions
+exclude:
+  - README.md
+  - .DS_Store
 
 # Kramdown
 kramdown:
