@@ -80,9 +80,14 @@
   <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "{{ page_title }}",
-    "url": "{{ site.url }}"
+    "@type": "Organization",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/icons/pkg_fm_og.png",
+    "mainEntityOfPage": {
+      "@type": "WebSite",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}"
+    }
   }
   </script>
 </head>
