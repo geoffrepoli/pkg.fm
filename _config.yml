@@ -45,7 +45,7 @@ sass:
   style             : compressed
 
 # Gems
-plugins:
+gems:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
