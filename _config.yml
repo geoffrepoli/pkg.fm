@@ -36,7 +36,6 @@ lang                : en
 exclude:
   - README.md
   - .DS_Store
-  - robots.txt
   - LICENSE
 
 # Kramdown
