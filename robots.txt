@@ -5,4 +5,4 @@ User-agent: *
 Sitemap: https://pkg.fm/sitemap.xml
 
 # Disallowed URLs
-Disallow: /blog/test-post-please-ignore/
+Disallow: /blog/test-post-please-ignore
