@@ -3,13 +3,13 @@ layout: default
 title: Home
 ---
 
-<div class="catalogue">
+<div class="catalog">
   {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.url }}" class="catalogue-item">
+    <a href="{{ post.url | prepend: site.url }}" class="catalog-item">
       <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
+        <time datetime="{{ post.date }}" class="catalog-time">{{ post.date | date: "%B %d, %Y" }}</time>
+        <h1 class="catalog-title">{{ post.title }}</h1>
+        <div class="catalog-line"></div>
       </div>
     </a>
   {% endfor %}

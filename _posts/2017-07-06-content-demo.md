@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Spernimur rupit sorore tauro ingentia attritas his"
-sitemap: false
+title: Spernimur rupit sorore tauro ingentia attritas his
+slug: test post please ignore
 ---
 
 Lorem markdownum collo. Ubi quod, euntem, **tuis pulchra**, populisque enim

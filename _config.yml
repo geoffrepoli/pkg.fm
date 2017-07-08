@@ -24,7 +24,7 @@ analytics_id:
 
 # Appearance
 markdown            : kramdown
-permalink           : pretty
+permalink           : /blog/:slug/
 paginate            : 5
 
 # Localization
@@ -52,7 +52,7 @@ sass:
   style             : compressed
 
 # Gems
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
