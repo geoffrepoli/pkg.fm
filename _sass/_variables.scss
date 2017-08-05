@@ -14,16 +14,17 @@ $title-font: Poppins, 'Helvetica Neue', sans-serif;
 $serif-font: 'Playfair Display', 'Times New Roman', Times, serif;
 $sans-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $monospaced-font: 'Roboto Mono', Menlo, Monaco, monospace;
+$body-font: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
 $code-color: #e74c3c;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
-     -moz-box-sizing: $type;
-          box-sizing: $type;
+  -moz-box-sizing: $type;
+  box-sizing: $type;
 }
 
 @mixin transition($args...) {
   -webkit-transition: $args;
-     -moz-transition: $args;
-          transition: $args;
+  -moz-transition: $args;
+  transition: $args;
 }
