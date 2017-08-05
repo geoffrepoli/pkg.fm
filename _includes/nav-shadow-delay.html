@@ -29,7 +29,9 @@ function onScroll() {
   }
 }
 
-const $$header = document.querySelector('.nav-container');
+let $$header;
+if($(window).width() < 601) $$header = document.querySelector('.nav');
+else $$header = document.querySelector('.nav-container');
 
 window.addEventListener('scroll', throttle(onScroll, 25));
 </script>

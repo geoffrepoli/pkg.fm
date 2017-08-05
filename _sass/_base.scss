@@ -1,6 +1,6 @@
 * {
   @include box-sizing;
-  line-height: 1.7;
+  line-height: 1.4;
 }
 
 html,
@@ -14,18 +14,20 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-family: sans serif;
+  font-size: 18px;
+  @media (max-width: 600px) {
+    font-size: 14px;
+  }
 }
 
 body {
-  -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: 'liga' on;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: $sans-font;
-  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 1.4;
   text-rendering: optimizeLegibility;
 }
 
