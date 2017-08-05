@@ -28,8 +28,8 @@ permalink           : /blog/:slug/
 paginate            : 5
 
 # Localization
-encoding            : UTF-8
-locale              : en_US
+encoding            : utf-8
+locale              : en_us
 lang                : en
 
 # Exclusions

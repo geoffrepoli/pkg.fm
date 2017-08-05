@@ -1,7 +1,8 @@
 .post {
-  width: 90%;
+  font-family: $serif-font;
   margin: 0 auto;
-  padding: 4rem 0rem 1rem 0rem;
+  padding: 4rem 0 1rem 0;
+  width: 90%;
   @media (min-width: 400px) {
     padding: 5rem 0rem 1rem 0rem;
   }
@@ -23,11 +24,11 @@
   &-date {
     color: $default-color;
     font-family: $sans-font;
-    font-size: 0.85rem;
+    font-size: .85rem;
+    letter-spacing: .2px;
+    opacity: .6;
     padding-top: 2rem;
     text-transform: uppercase;
-    letter-spacing: 0.2px;
-    opacity: 0.6;
 
     span {
       font-style: italic;
@@ -35,13 +36,13 @@
   }
 
   &-title {
-    width: 100%;
     color: $default-shade;
-    font-family: $serif-font;
-    font-weight:700;
+    font-family: $sans-font;
     font-size: 2rem;
+    font-weight: 700;
     margin-top: 0.4rem;
     text-align: left;
+    width: 100%;
     @media (min-width: 500px) {
       font-size: 3rem;
     }
@@ -59,36 +60,30 @@
   }
 
   p {
+    letter-spacing: .003rem;
     margin: 0 0 1rem;
     text-align: justify;
+    --x-height-multiplier: 0.35;
+    --base-multiplier: 0.179;
   }
 
   a {
-    color: $default-color;
     border-bottom: 1px solid $red;
+    color: $default-color;
     display: inline-block;
 
-    &:after, {
-      display: block;
-      content: '';
-      height: 2px;
-      width: 0%;
-      background-color: $red;
-      transition: width 0.3s ease-in-out;
-    }
-
-    &:hover:after,
-    &:focus:after {
+    &:hover::after,
+    &:focus::after {
       width: 100%;
     }
-  }
-}
 
-.scroll-line {
-  z-index: 999;
-  position: fixed;
-  height: 2px;
-  top: 0;
-  background: $red;
-  width: 0%;
+    &::after {
+      background-color: $red;
+      content: '';
+      display: block;
+      height: 2px;
+      transition: width 0.3s ease-in-out;
+      width: 0%;
+    }
+  }
 }

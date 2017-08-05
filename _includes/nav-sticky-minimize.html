@@ -19,19 +19,19 @@
   }
 
   // Throttle function (https://bit.ly/1eJxOqL)
-  function throttle( fn, threshhold, scope ) {
-    threshhold || ( threshhold = 250 );
+  function throttle( fn, threshold, scope ) {
+    threshold || ( threshold = 250 );
     var previous, deferTimer;
     return function () {
       var context = scope || this,
           current = Date.now(),
           args    = arguments;
-      if ( previous && current < previous + threshhold ) {
+      if ( previous && current < previous + threshold ) {
         clearTimeout( deferTimer );
         deferTimer = setTimeout( function () {
         previous   = current;
         fn.apply( context, args );
-        }, threshhold );
+        }, threshold );
       } else {
         previous = current;
         fn.apply( context, args );
@@ -68,8 +68,8 @@
   // Overridable defaults
   headsUp.prototype = {
     defaults : {
-      delay       : 300,
-      sensitivity : 20
+      delay       : 275,
+      sensitivity : 5
     },
 
     // Init function

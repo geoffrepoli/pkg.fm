@@ -1,7 +1,7 @@
 .catalog {
-  width: 90%;
   margin: 0 auto;
   padding: 4rem 0rem 1rem 0rem;
+  width: 90%;
   @media (min-width: 400px) {
     padding: 5rem 0rem 1rem 0rem;
   }
@@ -39,19 +39,19 @@
   &-time {
     color: $default-color;
     font-family: $sans-font;
-    font-size: 0.85rem;
-    letter-spacing: 0.2px;
+    font-size: .85rem;
+    letter-spacing: .2px;
+    opacity: .6;
     text-transform: uppercase;
-    opacity: 0.6;
   }
 
   &-title {
     color: $default-shade;
     display: block;
     font-family: $sans-font;
-    letter-spacing: -0.01rem;
     font-size: 2rem;
     font-weight: 700;
+    letter-spacing: -.01rem;
     margin: .5rem 0;
   }
 
