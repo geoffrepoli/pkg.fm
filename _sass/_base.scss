@@ -1,13 +1,13 @@
 * {
   @include box-sizing;
   line-height: 1.4;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
   color: $default-color;
-  margin: 0;
-  padding: 0;
 }
 
 html {
@@ -40,6 +40,7 @@ h6 {
   color: $default-shade;
   font-family: $sans-font;
   line-height: normal;
+  padding-bottom: .5rem;
 }
 
 main {

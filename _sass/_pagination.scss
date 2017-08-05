@@ -23,20 +23,6 @@
     }
   }
 
-  /*.arrow {
-    @include transition(all .3s ease-out);
-    color: $default-color;
-    font-size: 1.4rem;
-    position: absolute;
-    opacity: .6;
-
-    &:hover,
-    &:focus {
-      opacity: 1;
-      text-decoration: none;
-    }
-  }*/
-
   .left {
     left: 0;
   }

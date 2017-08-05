@@ -54,7 +54,7 @@
   &-line {
     border-top: .1rem solid $default-shade;
     display: block;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     width: 6rem;
     @media (min-width: 500px) {
       border-top: .2rem solid $default-shade;
