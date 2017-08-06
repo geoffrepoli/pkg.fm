@@ -1,24 +1,19 @@
 .post {
   font-family: $serif-font;
   margin: 0 auto;
-  padding: 4.125rem 0 1rem;
-  width: 90%;
-  @media (min-width: 400px) {
-    padding: 5.125rem 0 1rem;
-  }
-  @media (min-width: 600px) {
-    padding: 5rem 0 1rem;
-    width: 80%;
+  padding-top: 130px;
+  width: 85%;
+  @media (max-width: 600px) {
+    padding-top: 80px;
   }
   @media (min-width: 1024px) {
     width: 70%;
   }
   @media (min-width: 1366px) {
-    width: 60%;
+    width: 80%;
   }
   @media (min-width: 1800px) {
-    padding: 6rem 0 1rem;
-    width: 40%;
+    width: 70%;
   }
 
   &-date {
@@ -27,11 +22,7 @@
     font-size: .8rem;
     letter-spacing: .2px;
     opacity: .6;
-    padding-top: .5rem;
     text-transform: uppercase;
-    @media (min-width: 1024px) {
-      padding-top: 1.5rem;
-    }
 
     span {
       font-style: italic;

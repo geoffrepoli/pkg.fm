@@ -1,11 +1,13 @@
 .nav {
   background: $nav-bg;
+  height: 120px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
   @media (max-width: 600px) {
     background: $nav-bg-phone;
+    height: 70px;
     transform: translateY(0);
     transform: translate3d(0, 0, 0);
     transition: .5s transform;
@@ -36,6 +38,7 @@
   }
 
   &-container {
+    height: 100%;
     margin: 0 auto;
     position: relative;
     width: 90%;
@@ -65,22 +68,21 @@
       width: 70%;
     }
     @media (min-width: 1366px) {
-      width: 60%;
+      width: 80%;
     }
     @media (min-width: 1800px) {
-      width: 40%;
+      width: 70%;
     }
   }
 
   &-title {
-    @include transition(all .2s ease-out);
     color: $default-color;
-    display: inline-block;
     font-family: $title-font;
     font-size: 3rem;
     letter-spacing: -.17rem;
-    margin: 0;
-    padding-bottom: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
     @media (min-width: 600px) {
       font-size: 3.5rem;
     }
@@ -92,9 +94,9 @@
       text-decoration: none;
 
       > .dot {
-        color: $default-color;
         animation: loopdot 4.5s;
         animation-iteration-count: infinite;
+        color: $default-color;
       }
     }
   }
@@ -110,6 +112,9 @@
 
 .dot {
   color: $blue;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
   transition: color 1s ease-in;
 }
 

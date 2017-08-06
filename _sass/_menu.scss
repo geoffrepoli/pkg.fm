@@ -1,7 +1,7 @@
 .menu {
-	margin: -2rem 0 0;
+	bottom: 1rem;
+	letter-spacing: -.5rem;
 	opacity: 0;
-	padding: 0 0 -.01rem;
 	position: absolute;
 	transition-duration: 300ms;
 	transition-property: all;
@@ -11,7 +11,7 @@
 	&-trigger {
 		display: block;
 		position: absolute;
-		right: 10px;
+		right: 0;
 		top: 50%;
 		transform: translate(0, -50%);
 		width: 30px;
@@ -54,48 +54,47 @@
 		}
 	}
 
-	@media (min-width: 600px) {
-		&-active .menu {
-			background-color: $nav-bg;
-			box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .3);
-			opacity: 1;
-			margin: -1rem 0 0;
-			padding: 0 0 .5rem;
+	&-active .menu {
+		bottom: .22rem;
+		letter-spacing: 0;
+		opacity: 1;
+	}
+
+	&-list {
+		display: flex;
+		justify-content: flex-start;
+		list-style-type: none;
+		width: 100%;
+	}
+
+	&-item {
+		padding: 0 .15rem .275rem;
+	}
+
+	&-link {
+		color: $default-color;
+		font-family: $sans-font;
+		font-size: 1.1rem;
+		font-weight: bold;
+		text-decoration: none;
+		text-transform: uppercase;
+		@media (max-width: 600px) {
+			font-size: .9rem;
 		}
 
-		&-list {
-			display: flex;
-			justify-content: flex-start;
-			list-style-type: none;
+		&:hover::after,
+		&:focus::after {
 			width: 100%;
-		}
+   	}
 
-		&-item {
-			padding: 0 .15rem .275rem;
-		}
-
-		&-link {
-			color: $default-color;
-			font-family: $sans-font;
-			font-size: 1.1rem;
-			font-weight: bold;
-			text-decoration: none;
-			text-transform: uppercase;
-
-			&:hover::after,
-			&:focus::after {
-				width: 100%;
-   			}
-
-			&::after {
-				background-color: $blue;
-				content: '';
-				display: block;
-				height: 2px;
-				margin-top: -.15rem;
-				transition: width .3s ease-in-out;
-				width: 0%;
-			}
+		&::after {
+			background-color: $blue;
+			content: '';
+			display: block;
+			height: 2px;
+			margin-top: -.15rem;
+			transition: width .3s ease-in-out;
+			width: 0%;
 		}
 	}
 
