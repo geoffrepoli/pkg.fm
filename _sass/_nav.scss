@@ -1,4 +1,6 @@
 .nav {
+  -webkit-backdrop-filter: saturate(180%) blur(15px);
+  backdrop-filter: saturate(180%) blur(15px);
   background: $nav-bg;
   height: 120px;
   position: fixed;
