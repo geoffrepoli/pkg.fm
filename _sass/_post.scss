@@ -2,7 +2,7 @@
   font-family: $serif-font;
   margin: 0 auto;
   padding-top: 130px;
-  width: 70%;
+  width: 60%;
   @media (max-width: 600px) {
     padding-top: 80px;
     width: 90%;
@@ -60,7 +60,7 @@
   }
 
   a {
-    border-bottom: 1px solid $red;
+    border-bottom: 1px solid $blue;
     color: $default-color;
     display: inline-block;
 
@@ -70,7 +70,7 @@
     }
 
     &::after {
-      background-color: $red;
+      background-color: $blue;
       content: '';
       display: block;
       height: 2px;
